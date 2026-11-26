@@ -1,4 +1,4 @@
 import { mkdirSync, writeFileSync } from "node:fs";
-const LINE = "Diagnosis: chronic doomscrolling with acute main-character syndrome; prognosis good, unless you keep asking a chatbot to feel your feelings for you.";
+const LINE = "Diagnosis: terminally online with a severe case of main-character syndrome. Treatment: log off, touch grass, and stop outsourcing your feelings to a chatbot.";
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LINE, "utf8");
